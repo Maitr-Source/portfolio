@@ -88,7 +88,7 @@ const PROJECTS = [
     fps: "24 FPS",
     codec: "H.264",
     audio: "AAC / 44.1 kHz",
-    videoUrl: "https://youtube.com/shorts/FDJASIY7YLM",
+    videoUrl: "https://youtu.be/FDJASIY7YLM",
     thumbnail: "assets/stills/still-02.jpg",
     letterbox: true,
     hook: "",

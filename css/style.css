@@ -1586,7 +1586,6 @@ main > section { padding-top: clamp(48px, 8vh, 110px); }
   0%, 100% { opacity: 0.08; transform: translate(-50%, -50%) scale(0.6) rotate(-10deg); }
   50%      { opacity: 1;   transform: translate(-50%, -50%) scale(1.2) rotate(12deg); }
 }
-}
 
 /* ------------------------- 18 Full Y2K retheme --------------------------- */
 /* Replaces the clean editorial look with a committed internet-2000 /
