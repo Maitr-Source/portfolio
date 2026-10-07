@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mara Voss — Video Editor / Post-Production</title>
+<meta name="description" content="Mara Voss — video editor and post-production specialist. Commercials, documentary, brand film. Editing, colour grading, sound design and motion.">
+<meta name="theme-color" content="#000080">
+<meta property="og:title" content="Mara Voss — Video Editor / Post-Production">
+<meta property="og:description" content="Selected work, featured reel and technical index. Editing · Color · Sound · Motion.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121212'/%3E%3Crect x='6' y='14' width='4' height='4' fill='%23e05a2b'/%3E%3Crect x='13' y='14' width='4' height='4' fill='%23f4f1ea'/%3E%3Crect x='20' y='14' width='4' height='4' fill='%23f4f1ea'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ambient twinkling star decorations (behind all content) -->
+<div class="shimmer" id="shimmer" aria-hidden="true"></div>
+
+<a class="skip-link" href="#archive">Skip to work</a>
+
+<div class="cursor" aria-hidden="true">
+  <span class="cursor__ring"></span>
+  <span class="cursor__dot"></span>
+  <span class="cursor__label"></span>
+</div>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a class="identity" href="#top">
+      <span class="identity__name" data-bind="name">Mara Voss</span>
+      <span class="identity__rule" aria-hidden="true"></span>
+      <span class="identity__role" data-bind="role">Video Editor / Post-Production</span>
+    </a>
+
+    <p class="availability">
+      <span class="availability__dot" aria-hidden="true"></span>
+      <span data-bind="availability">Available — Q4 2026</span>
+    </p>
+
+    <a class="header-contact" data-bind-mailto href="mailto:hello@maravoss.studio">
+      <span>hello@maravoss.studio</span>
+      <span class="header-contact__arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <nav class="site-nav" id="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="#showreel">01 — <span data-bind="showreel.label">Featured</span></a></li>
+      <li><a href="#archive">02 — Archive</a></li>
+      <li><a href="#about">03 — About</a></li>
+      <li><a href="#contact">04 — Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1 class="visually-hidden">Mara Voss — Video Editor / Post-Production</h1>
+
+  <!-- ========================= FEATURED ========================= -->
+  <section class="showreel" id="showreel" aria-labelledby="showreel-title">
+    <div class="section-slug">
+      <span class="section-slug__index">01</span>
+      <h2 class="section-slug__title" id="showreel-title" data-bind="showreel.label">Featured</h2>
+      <span class="section-slug__meta" data-bind="showreel.meta">SELECTED WORK — 2026 EDITION</span>
+    </div>
+
+    <figure class="reel">
+      <div class="reel__frame" id="reel-frame" data-video-root>
+        <img class="reel__poster" id="reel-poster" src="assets/stills/still-reel.jpg" alt="Cards Combat poster frame" width="1600" height="900"
+             data-bind-src="showreel.thumbnail" data-bind-alt="showreel.title" data-fallback="assets/stills/still-reel.svg">
+        <button class="play-trigger" type="button" aria-label="Play Video" data-bind-aria="showreel.playLabel">
+          <span class="play-trigger__mark" aria-hidden="true">▶</span>
+          <span class="play-trigger__text" data-bind="showreel.playLabel">Play Video</span>
+        </button>
+        <span class="reel__tc" aria-hidden="true" data-tc>00:00:00:00</span>
+        <span class="sticker" lang="fr" aria-hidden="true">★ CLIQUEZ ICI POUR JOUER ★</span>
+      </div>
+
+      <figcaption class="spec-strip" aria-label="Technical specifications">
+        <span class="spec-strip__item"><span class="spec-strip__k">Title</span><span class="spec-strip__v" data-bind="showreel.title">Cards Combat</span></span>
+        <span class="spec-strip__item"><span class="spec-strip__k">Duration</span><span class="spec-strip__v" data-bind="showreel.duration">01:33</span></span>
+        <span class="spec-strip__item"><span class="spec-strip__k">Resolution</span><span class="spec-strip__v" data-bind="showreel.resolution">1920 × 1080</span></span>
+        <span class="spec-strip__item"><span class="spec-strip__k">Frame rate</span><span class="spec-strip__v" data-bind="showreel.fps">30 FPS</span></span>
+        <span class="spec-strip__item"><span class="spec-strip__k">Audio</span><span class="spec-strip__v" data-bind="showreel.audio">AAC / 44.1 kHz</span></span>
+        <span class="spec-strip__item"><span class="spec-strip__k">Codec</span><span class="spec-strip__v" data-bind="showreel.codec">H.264</span></span>
+        <span class="spec-strip__item"><span class="spec-strip__k">Year</span><span class="spec-strip__v" data-bind="showreel.year">2026</span></span>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- ========================== ARCHIVE ========================== -->
+  <section class="archive" id="archive" aria-labelledby="archive-title">
+    <div class="section-slug">
+      <span class="section-slug__index">02</span>
+      <h2 class="section-slug__title" id="archive-title">Archive</h2>
+      <span class="section-slug__meta"><span data-count>6</span> ENTRIES — EDITED / GRADED / MIXED</span>
+    </div>
+
+    <div class="toolbar" role="toolbar" aria-label="Archive view controls">
+      <div class="toolbar__group">
+        <span class="toolbar__label">View</span>
+        <div class="view-toggle" role="group" aria-label="View mode">
+          <button type="button" class="view-toggle__btn is-active" data-view="grid" aria-pressed="true">Grid</button>
+          <button type="button" class="view-toggle__btn" data-view="index" aria-pressed="false">Index</button>
+        </div>
+      </div>
+
+      <div class="toolbar__group toolbar__group--filters">
+        <span class="toolbar__label">Filter</span>
+        <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+      </div>
+
+      <p class="toolbar__count"><span data-visible-count>6</span> / <span data-count>6</span></p>
+    </div>
+
+    <!-- GRID VIEW -->
+    <ul class="grid" id="grid-view" aria-label="Project stills grid"></ul>
+
+    <!-- INDEX / TABLE VIEW -->
+    <div class="table-wrap" id="index-view" hidden>
+      <table class="index-table">
+        <caption class="visually-hidden">Technical index of projects</caption>
+        <thead>
+          <tr>
+            <th scope="col" class="col-num">#</th>
+            <th scope="col">Project</th>
+            <th scope="col">Client / Type</th>
+            <th scope="col">Role</th>
+            <th scope="col" class="col-year">Year</th>
+            <th scope="col" class="col-runtime">Runtime</th>
+            <th scope="col" class="col-link"><span class="visually-hidden">Open</span></th>
+          </tr>
+        </thead>
+        <tbody id="index-body"></tbody>
+      </table>
+    </div>
+
+    <p class="archive__empty" id="archive-empty" hidden>No entries match this filter.</p>
+  </section>
+
+  <!-- =========================== ABOUT =========================== -->
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="section-slug">
+      <span class="section-slug__index">03</span>
+      <h2 class="section-slug__title" id="about-title">About</h2>
+      <span class="section-slug__meta">PIPELINE &amp; PRACTICE</span>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__statement">
+        <p class="lede">
+          I cut picture for brands, broadcasters and independent directors — work that has to hold
+          attention without shouting for it.
+        </p>
+        <p>
+          Ten years across commercials, documentary and long-form interview. My approach is
+          structural: find the hook, decide the rhythm before touching a single transition, then
+          protect it through grade and mix. I work in Premiere Pro and DaVinci Resolve daily,
+          finish in After Effects, and treat sound as part of the edit rather than a layer added at
+          the end.
+        </p>
+        <p>
+          Available for remote and on-site post-production. Typical turnaround for a 60-second
+          commercial: 3 working days to first cut.
+        </p>
+
+        <a class="btn-cv" data-cv href="assets/cv.pdf" download>
+          <span class="btn-cv__label">Download CV</span>
+          <span class="btn-cv__meta">PDF — 1 PAGE</span>
+          <span class="btn-cv__arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+
+      <div class="pipeline">
+        <h3 class="pipeline__title">Pipeline</h3>
+        <ol class="pipeline__list">
+          <li class="pipeline__row">
+            <span class="pipeline__index">01</span>
+            <span class="pipeline__name">Editing</span>
+            <span class="pipeline__tools">Premiere Pro · Resolve</span>
+            <span class="pipeline__bar" style="--level:96" aria-hidden="true"></span>
+            <span class="pipeline__level visually-hidden">96 percent</span>
+          </li>
+          <li class="pipeline__row">
+            <span class="pipeline__index">02</span>
+            <span class="pipeline__name">Color Grading</span>
+            <span class="pipeline__tools">DaVinci Resolve · Lumetri</span>
+            <span class="pipeline__bar" style="--level:92" aria-hidden="true"></span>
+            <span class="pipeline__level visually-hidden">92 percent</span>
+          </li>
+          <li class="pipeline__row">
+            <span class="pipeline__index">03</span>
+            <span class="pipeline__name">Sound Design</span>
+            <span class="pipeline__tools">Audition · Fairlight</span>
+            <span class="pipeline__bar" style="--level:78" aria-hidden="true"></span>
+            <span class="pipeline__level visually-hidden">78 percent</span>
+          </li>
+          <li class="pipeline__row">
+            <span class="pipeline__index">04</span>
+            <span class="pipeline__name">Motion</span>
+            <span class="pipeline__tools">After Effects</span>
+            <span class="pipeline__bar" style="--level:84" aria-hidden="true"></span>
+            <span class="pipeline__level visually-hidden">84 percent</span>
+          </li>
+        </ol>
+
+        <dl class="facts">
+          <div class="facts__row"><dt>Experience</dt><dd>10 Years</dd></div>
+          <div class="facts__row"><dt>Base</dt><dd data-bind="location">Lisbon, PT</dd></div>
+          <div class="facts__row"><dt>Time zone</dt><dd data-bind="timezone">UTC+01:00</dd></div>
+          <div class="facts__row"><dt>Status</dt><dd data-bind="availability">Available — Q4 2026</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- =========================== FOOTER =========================== -->
+<footer class="site-footer" id="contact">
+  <div class="hazard" aria-hidden="true">
+    <span class="hazard__sign" lang="fr">Travaux en cours</span>
+  </div>
+
+  <div class="section-slug section-slug--footer">
+    <span class="section-slug__index">04</span>
+    <h2 class="section-slug__title">Contact</h2>
+    <span class="section-slug__meta">DIRECT — NO FORMS</span>
+  </div>
+
+  <div class="site-footer__grid">
+    <div class="site-footer__col">
+      <p class="footer-label">Email</p>
+      <a class="footer-mail" data-bind-mailto-text href="mailto:hello@maravoss.studio">hello@maravoss.studio</a>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="footer-label">Elsewhere</p>
+      <ul class="social-list" id="social-list"></ul>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="footer-label">Local time</p>
+      <p class="footer-clock"><span data-clock>00:00:00</span> <span class="footer-clock__tz" data-bind="timezone">UTC+01:00</span></p>
+      <p class="footer-avail">
+        <span class="availability__dot" aria-hidden="true"></span>
+        <span data-bind="availability">Available — Q4 2026</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="y2k" lang="fr">
+    <p class="y2k__meta">
+      <span>Dernière mise à jour : <span class="y2k__maj">—</span></span>
+      <a class="y2k__guestbook" data-bind-mailto href="mailto:hello@maravoss.studio">Signer mon livre d'or →</a>
+    </p>
+  </div>
+
+  <div class="site-footer__base">
+    <span>© <span data-year>2026</span> <span data-bind="name">Mara Voss</span></span>
+    <span>Static archive — no trackers, no cookies</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- ============================ MODAL ============================ -->
+<div class="modal" id="project-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal__backdrop" data-close></div>
+
+  <div class="modal__panel" role="document">
+    <header class="modal__head">
+      <p class="modal__crumbs"><span class="modal__num" id="modal-num">01</span> <span aria-hidden="true">/</span> <span id="modal-total">08</span> <span class="modal__cat" id="modal-cat">Commercial</span></p>
+      <div class="modal__controls">
+        <button type="button" class="modal__btn" data-prev aria-label="Previous project">←</button>
+        <button type="button" class="modal__btn" data-next aria-label="Next project">→</button>
+        <button type="button" class="modal__btn modal__btn--close" data-close aria-label="Close project">✕</button>
+      </div>
+    </header>
+
+    <div class="modal__scroll">
+      <div class="modal__player" id="modal-player" data-video-root></div>
+
+      <div class="modal__body">
+        <div class="modal__ident">
+          <h3 class="modal__title" id="modal-title">Project</h3>
+          <dl class="modal__meta" id="modal-meta"></dl>
+        </div>
+
+        <div class="modal__breakdown">
+          <div class="breakdown__block">
+            <h4 class="breakdown__label">Hook</h4>
+            <p class="breakdown__text" id="modal-hook"></p>
+          </div>
+          <div class="breakdown__block">
+            <h4 class="breakdown__label">Pacing strategy</h4>
+            <p class="breakdown__text" id="modal-pacing"></p>
+          </div>
+          <div class="breakdown__block">
+            <h4 class="breakdown__label">Software</h4>
+            <ul class="tag-list" id="modal-software"></ul>
+          </div>
+        </div>
+      </div>
+
+      <footer class="modal__foot">
+        <button type="button" class="modal__nav" data-prev><span aria-hidden="true">←</span> Previous</button>
+        <button type="button" class="modal__nav" data-next>Next <span aria-hidden="true">→</span></button>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

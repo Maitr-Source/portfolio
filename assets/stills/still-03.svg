@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="BRAND FILM film still">
+  <rect width="1600" height="900" fill="#17161a"/>
+  <rect x='90' y='50' width='1420' height='799' fill='none' stroke='#f4f1ea' stroke-opacity='0.42' stroke-width='2'/>
+  <rect x='172' y='96' width='1256' height='707' fill='none' stroke='#f4f1ea' stroke-opacity='0.37' stroke-width='2'/>
+  <rect x='254' y='142' width='1092' height='616' fill='none' stroke='#f4f1ea' stroke-opacity='0.32' stroke-width='2'/>
+  <rect x='336' y='188' width='928' height='524' fill='none' stroke='#f4f1ea' stroke-opacity='0.27' stroke-width='2'/>
+  <rect x='418' y='234' width='764' height='432' fill='none' stroke='#f4f1ea' stroke-opacity='0.22' stroke-width='2'/>
+  <rect x='500' y='280' width='600' height='340' fill='none' stroke='#f4f1ea' stroke-opacity='0.17' stroke-width='2'/>
+  <rect x='582' y='326' width='436' height='248' fill='none' stroke='#f4f1ea' stroke-opacity='0.12' stroke-width='2'/>
+  <rect x='640' y='360' width='320' height='180' fill='#e05a2b' fill-opacity='0.85'/>
+  <rect x='0' y='0' width='1600' height='116' fill='#0b0b0b'/>
+  <rect x='0' y='784' width='1600' height='116' fill='#0b0b0b'/>
+  <path d='M 44 44 L 44 76 M 44 44 L 76 44' stroke='#f4f1ea' stroke-opacity='0.5' stroke-width='2' fill='none'/>
+  <path d='M 1556 44 L 1556 76 M 1556 44 L 1524 44' stroke='#f4f1ea' stroke-opacity='0.5' stroke-width='2' fill='none'/>
+  <path d='M 44 856 L 44 824 M 44 856 L 76 856' stroke='#f4f1ea' stroke-opacity='0.5' stroke-width='2' fill='none'/>
+  <path d='M 1556 856 L 1556 824 M 1556 856 L 1524 856' stroke='#f4f1ea' stroke-opacity='0.5' stroke-width='2' fill='none'/>
+  <text x='86' y='66' font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace" font-size='21' fill='#f4f1ea' fill-opacity='0.75'>BRAND FILM</text>  <text x='1514' y='66' font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace" font-size='21' fill='#f4f1ea' fill-opacity='0.75' text-anchor='end'>02:41:19:11</text>  <text x='86' y='854' font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace" font-size='19' fill='#e05a2b' fill-opacity='1'>&#9654;</text>  <text x='118' y='854' font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace" font-size='19' fill='#f4f1ea' fill-opacity='0.55'>REC.709 &#183; 24 FPS &#183; H.264</text>  <text x='1514' y='854' font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace" font-size='19' fill='#f4f1ea' fill-opacity='0.55' text-anchor='end'>2.39:1</text>  <rect x='1' y='1' width='1598' height='898' fill='none' stroke='#f4f1ea' stroke-opacity='0.22' stroke-width='2'/>
+</svg>
